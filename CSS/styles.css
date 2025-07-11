@@ -6,6 +6,20 @@
 }
 
 /* =======shared style=======  */
+
+.secondary-bg {
+  background-color: #fff8f3;
+}
+
+.section-title {
+  font-size: 35px;
+  font-weight: bold;
+  color: black;
+}
+.section-description {
+  font-size: 18px;
+  color: #757575;
+}
 .text-primary {
   color: #fd6e0a;
 }
@@ -22,6 +36,7 @@
   border-radius: 5px;
   font-size: 20px;
   border: none;
+  /* transition: all 0.3s ease-in-out; */
 }
 
 /* ======shared style end===== */
@@ -70,15 +85,75 @@ nav ul li a {
 .banner-greetings {
   font-size: 45px;
   font-weight: 600;
+  margin-bottom: 0px;
 }
 
 .banner-title {
   font-size: 85px;
   font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.banner-description {
+  width: 585px;
+  height: 60px;
+  margin-bottom: 30px;
 }
 
 .banner-profile-picture {
   width: 580px;
 }
 
+.btn-primary.cv {
+  width: 200px;
+  height: 64px;
+  margin-right: 30px;
+  margin-top: 0px;
+  color: white;
+  padding: 18px 20px 18px 20px;
+}
+
+.btn-primary.cv:hover {
+  background-color: #fff8f3;
+  color: #fd6e0a;
+  border: 1px solid #fd6e0a;
+}
+
+.btn-primary.contact {
+  width: 160px;
+  height: 64px;
+  margin-top: 0px;
+  color: white;
+  padding: 18px 20px 18px 20px;
+}
+
+.btn-primary.contact:hover {
+  background-color: #fff8f3;
+  color: #fd6e0a;
+  border: 1px solid #fd6e0a;
+}
+
 /* =================== */
+
+/* main styles */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* main styles end  */
+/* about section */
+.about {
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+  margin-top: 130px;
+}
+.about-items {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.item-description {
+  font-weight: 600;
+}
