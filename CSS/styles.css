@@ -153,10 +153,11 @@ main section {
 /* about section */
 .about {
   border-radius: 10px;
-  padding: 130px 150px;
+  padding: 130px 157px 130px 156px;
   text-align: center;
   margin-top: 130px;
 }
+
 .about-items {
   display: flex;
   justify-content: space-around;
@@ -183,7 +184,6 @@ main section {
 }
 .section-description {
   width: 909px;
-  margin-left: 115px;
 }
 
 .resume-container {
